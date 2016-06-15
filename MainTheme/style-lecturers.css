@@ -1,0 +1,269 @@
+.mainGrid {
+    height: 900px;
+    margin-top: 170px;
+    width: 100%;
+
+}
+
+.soildLine {
+    height: 5px;
+    background-color: #bc4519; 
+    width: 100%;
+}
+   
+.mainPic {
+    float:right;
+    width: 100%;
+    height: 230px;
+    clear: both;
+    display: block;
+    
+}
+
+.pageContent {
+    width: 100%;
+    display: block;
+}
+
+.centerHeaderPhoto {
+    width: 100%;
+    height: 100%;
+}
+
+
+.mainContent {
+    width: 70%;
+    height: 500px;
+    margin-top: 10px;
+    float:right;
+    clear: both;
+    overflow:auto;
+    background-color:  #efefe9;
+}
+
+.contentHeader {
+    background-color: #bc4519; 
+    height: 52px;
+    overflow:auto;
+}
+
+.ContentHeaderText{
+    width: 80%;
+    height: 15px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 27px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+
+}
+
+.content {
+    float: right;
+    direction: rtl;
+    width:100%;
+}
+
+.secondaryContent {
+    width: 30%;
+    height: 500px;
+    margin-top: 10px;
+    overflow: auto;
+    float: right;
+}
+
+.lecturerHeader {
+    height: 100px;
+    width: 100%;
+    background-color: #BB492F;
+    color: #474747;
+}
+
+.lecturerContent {
+    height: 400px;
+    width: 100%;
+    background-color: #E6B095;
+}
+
+.lecturerTitleText {
+    width: 60%;
+    height: 100px;
+    float: right;
+    position: relative;
+    right: 30px;
+    top: 10px;
+    font-size: 21px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    
+}
+
+.lecturerTitleText div p{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-bottom: 0;
+    margin-top: 0px;
+    overflow: auto;
+    color: #474747;
+}
+
+.lecturerContentText {
+    width: 80%;
+    position: relative;
+    height: 100%;
+    float: right;
+    right: 30px;
+    top: 0px;
+    font-size: 16px; 
+	color:black; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    color: #474747;
+}
+
+.lecturerContentText div p{
+    margin-bottom: 0;
+    color: #474747;
+}
+
+.lectureCategory {
+    border-top-style: solid;
+    font-size: 21px; 
+	color:#BB492F; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    margin-right: 30px;
+    width: 90%;
+    float:right;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    border-top-width: 1px;
+    padding-top: 30px;
+    
+}
+
+.lecturerText {
+    font-size: 16px; 
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif; 
+    margin-top: 7px;
+    float: right;
+    width: 32%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.lecturerText:hover {
+    font-size: 16px; 
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif; 
+    margin-top: 7px;
+    float: right;
+    width: 32%;
+    margin-top: 10px;
+    cursor: pointer;
+    color:#BB492F; 
+}
+
+.allLecturers {
+    margin-right: 30px;
+}
+
+
+.interestInTheKated {
+    width: 100%;
+    height: 52px;
+    background-color: #ACB893;
+    float: right;
+    margin-top: 30px;
+}
+
+.interestInTheKatedText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+    font-size: 21px; 
+	color: white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+}
+
+.interestsList {
+    margin-right: 0px;
+    float: right;
+    text-align: right;
+    direction: rtl;    
+    font-size: 18px; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 100%;
+    line-height: 165%;
+
+}
+
+.interestsList li a {
+    color: black;
+    text-align: right;
+    text-decoration: none;
+	margin-top: 75px;
+	font-size: 18px;
+	font-family:'almoni-dl', sans-serif;
+    width: 100%;
+    color: #474747;
+}
+
+.signIn {
+    margin-top: 30px;
+    height:80px;
+    width: 100%;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.signInText {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 27px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+}
+
+.secondaryContent {
+    float: right;
+    width: 30%;
+    height: 1000px;  
+}
+
+.soildLine2 {
+    height: 5px;
+    background-color: #7B8F54; 
+    width: 100%;
+}
+
+.row {
+	content: "";
+    clear: both;
+    display: block;
+	max-width: 1550px;
+}

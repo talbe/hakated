@@ -1,0 +1,447 @@
+/* 
+Theme Name: MainTheme
+Author: Tal Benyunes
+Author URI: http://www.one.co.il
+Version: 1.0
+*/
+
+
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:700; /*(bold)*/
+	font-style: normal;
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-700.eot');
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-700.eot#iefix') format('embedded-opentype'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-700.woff') format('woff'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-700.ttf') format('truetype');
+}
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:900; /*(black)*/
+	font-style: normal;
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-900.eot');
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-900.eot#iefix') format('embedded-opentype'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-900.woff') format('woff'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-900.ttf') format('truetype');
+}
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:300; /*(light)*/
+	font-style: normal;
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-300.eot');
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-300.eot#iefix') format('embedded-opentype'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-300.woff') format('woff'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-300.ttf') format('truetype');
+}
+@font-face{
+	font-family:'almoni-dl';
+	font-weight:400; /*(regular)*/
+	font-style: normal;
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-400.eot');
+	src: url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-400.eot#iefix') format('embedded-opentype'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-400.woff') format('woff'),
+		url('http://ec2-52-11-214-0.us-west-2.compute.amazonaws.com/wp-content/uploads/2016/06/almoni-dl-aaa-400.ttf') format('truetype');
+}
+
+
+body {
+	margin-left:7%;
+	margin-right:7%;
+	background-color: #f4f1e5;
+    
+}
+
+
+/*
+nav bar style
+*/
+.nav{
+	z-index:1px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+	background-color: #f4f1e5;
+	z-index: 1;
+}
+
+ nav li {
+    float: left;
+    display: block;
+}
+
+nav li a {
+    display: block;
+    color: #474747;
+    text-align: center;
+    text-decoration: none;
+	margin-top: 75px;
+	font-size: 21px;
+	font-weight: bold;
+	font-family:'almoni-dl', sans-serif;
+    width: 100%;
+}
+
+.bla
+{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #9fae83;
+	color: white;
+}
+
+@media (min-width:1040px){
+    .ononconstruct{
+        display: none;
+    }
+    .leftPhotos {
+        width: 14%;
+        height: 100px;
+    }
+    
+    .migvanimLogo {
+        margin-top:4px;
+        position: relative;
+        top: 10px;
+    }
+    
+    .navOption{
+        width: 9.33%;
+    }
+    
+    .MobileMenu{
+        position: absolute;
+        top:0px;
+        visibility: hidden;
+        width: 22%;
+        height: 90px;
+        border-style: solid;  
+        border-width: 1px;
+    }
+    
+    .negishutMenuDiv {
+        width: 44%;
+        height: 105px;
+        margin-right: 0px;
+        background-color: #7a8f54;
+    }
+
+    .yedionMenuDiv {
+        position: relative;
+        left: 100px;
+        top: -105px;
+        background-color: #bc4519; 
+        height: 105px;
+        width: 44%;
+        margin-right: 30px;
+    }
+    
+    .yedionImg {
+        margin-left:30%;
+        margin-top: 15px;
+        
+    }
+    
+    .yedionDownloadText {
+        font-family:'almoni-dl', sans-serif; 
+        color: white; 
+        text-align: center;
+        font-size: 16px;
+        margin-top: 0px;    
+    }
+    
+    .negishutImg {
+        margin-left:15%;
+        margin-top: 20px;
+    }
+    
+    .negishutText {
+        font-family:'almoni-dl', sans-serif; 
+        color: white; 
+        text-align: center;
+        margin-top:12px;
+    }
+    
+    .hakatedraLogoOption {
+        margin-top: 20px;
+        width: 25%;
+    }    
+}
+
+@media (max-width: 1040px){
+
+   body *:not(.onconstruct) {
+        display: none;
+        float: right;
+        direction: rtl;
+    } 
+   
+    
+    .leftPhotos {
+        width: 26%;
+    }
+        
+    .migvanimLogo {
+        margin-top:20px;
+        width: 25px;
+        height: 9px;
+    }
+    
+    .navOption{
+        position: absolute;
+        left:0px;
+        top:0px;
+        display: none;
+    }
+    
+    .negishutMenuDiv {
+        width: 100%;
+        height: 40px;
+        background-color: #7a8f54;
+        margin-right: 0px;
+    }
+
+    .yedionMenuDiv {
+        position: relative;
+        background-color: #bc4519; 
+        height: 40px;
+        width: 100%;
+        margin-top: 5px;
+        
+    }
+    .hakatedraLogoImg {
+        margin-top: 20px;
+        margin-left: 15px;
+        width: 90%;
+        height: 70px;
+    }
+    
+    .yedionImg {
+        margin-left:75%;
+        margin-top: 8px;
+        width: 18px;
+        height: 20px;
+    }
+    
+    .yedionDownloadText {
+        font-family:'almoni-dl', sans-serif; 
+        color: white; 
+        text-align: center;
+        font-size: 15px;
+        position: absolute;
+        top: -12px;
+        left: 13px;
+    }
+    
+    .negishutImg {
+        margin-left:66%;
+        margin-top: 8px;
+        width: 25px;
+        height: 18px;
+    }
+    
+    .negishutText {
+        font-family:'almoni-dl', sans-serif; 
+        color: white; 
+        text-align: center;
+        font-size: 15px;
+        position: absolute;
+        top: -10px;
+        left: 15px;
+    }
+    
+    .hakatedraLogoOption {
+        width: 45%;
+        height: 90px;
+        overflow: hidden;
+    }
+    
+    .MobileMenu{
+        visibility: visible;
+        width: 22%;
+        height: 90px;
+        margin-left: 5px;
+    }
+    
+    .hamburger {
+        width: 40px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 17px;
+    }
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: #474747;
+    font-size: 21px;
+	font-weight: bold;
+	font-family:'almoni-dl', sans-serif;
+    border: none;
+    cursor: pointer;
+	text-align: center;
+    text-decoration: none;
+	margin-top: 75px;
+    width: 100%;
+}
+
+.dropdown {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+	z-index:1;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #9fae83;
+    min-width: 220px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	right: 0;
+	
+}
+
+.dropdown-content a {
+    margin-right: 10px;
+	margin-top: 20px;
+	font-size:18px;
+	text-align: right;
+	color: white;
+    text-decoration: none;
+    display: block;
+    font-weight: normal;
+}
+
+.dropdown-content a:hover {background-color: red}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+	color:#474747;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #9fae83;
+	color:white;
+}
+
+/*
+Main search style
+*/
+.mainSearch {
+	margin-top: 0px;
+}
+
+.textbox { 
+    height: 25px; 
+    width: 275px; 
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 0px 0px 1px 0px;  
+    border-color: black; 
+    outline:0; 
+	text-align: right;
+}
+
+
+.footer {
+    width: 100%;
+    height: 100px;
+    color: #474747;
+}
+
+.footerUpperBorder {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-width: 1px;
+    float:right;
+    width: 100%;
+}
+
+.footerContent {
+    height: 80px;
+    width: 100%;
+}
+
+.leftBorderP {
+    margin-top:15px;
+    float: right;
+    font-family:'almoni-dl', sans-serif;
+    font-size: 21px;
+    border-left-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+.leftBorderP:hover {
+    margin-top:15px;
+    float: right;
+    font-family:'almoni-dl', sans-serif;
+    font-size: 21px;
+    border-left-style: solid;
+    border-width: 1px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+
+.katedraAddress {
+    width: 25%;
+    float:right;
+}
+
+.firstKatedAdd {
+    margin-top:15px;
+    margin-bottom: 0px;
+    float: right;
+    font-weight: bold;
+    font-family:'almoni-dl', sans-serif;
+    font-size: 18px;
+    text-align: right;
+    color: #474747;
+}
+.secKatedAdd {
+    margin-top:5px;
+    float: right;
+    font-weight: bold;
+    font-family:'almoni-dl', sans-serif;
+    font-size: 18px;
+    text-align: right;
+}
+
+.developers {
+    float:left;
+    width:10%;
+    position: relative;
+    
+}
+
+.devText {
+    margin-top:15px;
+    margin-bottom: 0px;
+    font-family:'almoni-dl', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.devTextDiv {
+  position: absolute;
+    right: 0px;
+    
+}
+
+.footerMenu {
+    width: 43%;
+    float:right;
+}

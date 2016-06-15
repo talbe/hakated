@@ -1,0 +1,212 @@
+.mainGrid {
+    height: 750px;
+    margin-top: 170px;
+    width: 100%;
+}
+
+.soildLine {
+    height: 5px;
+    background-color: #bc4519; 
+    width: 100%;
+}
+
+.pageHeader {
+    width: 100%;
+    height: 135px;
+    background-color: #E1AB97;
+    float:right;
+    clear: both;
+}
+
+.centerHeaderPhoto {
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+}
+
+.headerText {
+    position: relative;
+    top: -100px;
+    right: 290px;
+    float: right;
+    font-size: 54px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+
+.pageContent {
+    height: 500px;
+    width: 100%;
+}
+
+.mainContent {
+    width: 70%;
+    height: 500px;
+    margin-top: 15px;
+    float: right;
+    clear: both;
+    
+}
+
+.courseDivs {
+    height: 100%;
+    padding-right: 30px;
+    margin-left: 30px;
+    background-color:  #efefe9;
+}
+.courseDetails {
+    border-top: solid;
+    border-width: 1px;
+    float: right;
+    height: 140px;
+    width: 29%;
+    margin-left: 30px;
+}
+
+.courseNameText {
+    position: relative;
+    top: 5px;
+    float: right;
+    font-size: 21px; 
+	color: #bc4519; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    margin: 0px;
+    width: 100%;
+    text-align: right;
+}
+
+.courselecturerText {
+    margin-top: 7px;
+    margin-bottom: 0px;
+    float: right;
+    font-size: 18px; 
+	color: black; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    color: #474747;
+}
+
+.coursecontentText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    float: right;
+    font-size: 18px; 
+	color: black; 
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+    color: #474747;
+}
+
+
+/*
+Secondary Menu
+*/
+
+
+.interestInTheKated {
+    width: 100%;
+    height: 52px;
+    background-color: #ACB893;
+}
+
+.interestInTheKatedText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+    font-size: 21px; 
+	color: white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+    
+}
+
+.interestsList {
+    margin-right: 0px;
+    float: right;
+    text-align: right;
+    direction: rtl;    
+    font-size: 18px; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 100%;
+    line-height: 165%;
+
+
+}
+
+.interestsList li a {
+    color: black;
+    text-align: right;
+    text-decoration: none;
+	margin-top: 75px;
+	font-size: 18px;
+	font-family:'almoni-dl', sans-serif;
+    width: 100%;
+    color: #474747;
+}
+
+.signIn {
+    margin-top: 30px;
+    height:80px;
+    width: 100%;
+    float: right;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.signInText {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 27px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+}
+
+.secondaryContent {
+    margin-top: 15px;
+    float: right;
+    width: 30%;
+    overflow: auto;
+    height: 500px;  
+}
+
+.soildLine2 {
+    height: 5px;
+    background-color: #7B8F54; 
+    width: 100%;
+}
+
+.row {
+	content: "";
+    clear: both;
+    display: block;
+	max-width: 1550px;
+}

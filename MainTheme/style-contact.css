@@ -1,0 +1,346 @@
+.mainGrid {
+    height: 900px;
+    margin-top: 170px;
+    width: 100%;
+}
+
+.teamText br {
+   display: block;
+   margin: 10px 0;
+    content: " ";
+}
+
+.margined {
+    margin-left: 15px;
+    height: 1200px;
+    background-color:  #efefe9;
+}
+.solidLine {
+    height: 5px;
+    background-color: #bc4519;
+    width: 100%;
+}
+
+.pageHeader {
+    float:right;
+    width: 100%;
+    height: 190px;
+    display: block;
+}
+
+.headerTextDiv {
+    width: 30%;
+    height: 100%;
+    float: right;
+    background-color: #DB9B83;
+}
+
+.headerText {
+    width: 40%;
+    height: 15px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 30px;
+    font-size: 36px; 
+	color: white; 
+	text-align:right; 
+    direction: rtl;
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+}
+
+.headerText br {
+
+    
+}
+.centerHeader {
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.leftHeader {
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+
+.headerMargin {
+    margin-right: 10px;
+    height: 100%;
+}
+
+.mainContent {
+    float: right;
+    margin-top: 20px;
+    width: 70%;
+    float: right;
+}
+
+.mainHeader {
+    float: right;
+    width:100%;
+    height: 50px;
+    background-color: #bc4519;
+}
+
+.contactPage {
+    float: right;
+    margin-top: 5px;
+    width: 100%;
+}
+
+.contactHeader {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    width: 100%;
+    float: right;
+    direction: rtl;
+    margin-right: 30px;
+    font-size: 24px;  
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif;
+    color: #474747;
+}
+
+.contactMesage {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    float: right;
+    width: 100%;
+    float: right;
+    margin-right: 30px;
+    font-size: 21px;  
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif;
+    color: #bc4519;
+}
+
+.inputField {
+    position: relative;
+    float: right;
+    width: 100%;    
+}
+
+.checkBoxField {
+    float: right;
+    width: 100%;
+}
+
+.checkboxText {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    float: right;
+    margin-right: 10px;
+    font-size: 18px;  
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif;
+    color: #bc4519;
+}
+
+.mycheckbox {
+    appearance: none;
+}
+
+.inputLabel {
+    margin-bottom: 0px;
+    float: right;
+    margin-right: 30px;
+    font-size: 18px;  
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif;
+    color: #bc4519;
+}
+
+.sendBtn {
+    width: 350px;
+    height: 100%;
+    background-color: #bc4519;
+    float: right;
+}
+.redtextbox { 
+    position: absolute;
+    bottom: 0px;
+    right: 150px;
+    float: right;
+    height: 25px; 
+    width: 300px; 
+    background-color: transparent;  
+    border-style: solid;  
+    border-width: 0px 0px 1px 0px;  
+    border-color: #bc4519; 
+    outline:0; 
+	text-align: right;
+}
+
+.sendText {
+    position: relative;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    top:20px;
+    right: 140px;
+    float: right;
+    font-size: 27px;  
+	text-align:right; 
+    font-weight: bold;
+    font-family:'almoni-dl', sans-serif;
+    color: white;
+}
+
+.mustField {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    top:20px;
+    right: 140px;
+    float: right;
+    font-size: 14px;  
+	text-align:right; 
+    font-family:'almoni-dl', sans-serif;
+    color: #bc4519;
+}
+.secondaryContent {
+    margin-top: 20px;   
+    width: 30%;
+    float:right;
+}
+
+.secondaryHeader {
+    height: 50px;
+    float: right;
+    background-color: #bc4519;
+    width: 100%;
+}
+
+.KatedTeamHeader {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    width: 100%;
+    float: right;
+    margin-right: 30px;
+    font-size: 27px;  
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif;
+    color: white;
+}
+
+.team {
+    float:right;
+    width: 100%;
+}
+
+.teamText {
+    line-height:22px;
+    width: 100%;
+    float: right;
+    direction: rtl;
+    margin-right: 30px;
+    font-size: 21px;  
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif;
+    color: #474747;
+
+}
+
+.mapHeader {
+    margin-top: 30px;
+    height: 60px;
+    width: 100%;
+    float: right;
+    background-color: #ACB893;
+}
+.mapHeaderText {
+    margin-top: 7px;
+    width: 100%;
+    float: right;
+    direction: rtl;
+    margin-right: 30px;
+    font-size: 36px;  
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif;
+    color: white;
+
+}
+
+.map {
+    float: right;
+    width: 100%;
+}
+/* checkbox style */
+/* Base for label styling */
+[type="checkbox"]:not(:checked),
+[type="checkbox"]:checked {
+  position: absolute;
+  left: -9999px;
+}
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 25px;
+  cursor: pointer;
+}
+
+/* checkbox aspect */
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left:0; top: 2px;
+  width: 17px; height: 17px;
+  border: 1px solid #bc4519;
+  background: transparent;
+  border-radius: 0px;
+}
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: 'v';
+  position: absolute;
+  top: 3px; left: 4px;
+  font-size: 18px;
+  line-height: 0.8;
+  color: #bc4519;
+  transition: all .2s;
+}
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+/* disabled checkbox */
+[type="checkbox"]:disabled:not(:checked) + label:before,
+[type="checkbox"]:disabled:checked + label:before {
+  box-shadow: none;
+  border-color: #bc4519;
+  background-color: #ddd;
+}
+[type="checkbox"]:disabled:checked + label:after {
+  color: #999;
+}
+[type="checkbox"]:disabled + label {
+  color: #aaa;
+}
+/* accessibility */
+[type="checkbox"]:checked:focus + label:before,
+[type="checkbox"]:not(:checked):focus + label:before {
+  border: 1px dotted #bc4519;
+}
+
+/* hover style just for information */
+label:hover:before {
+  border: 1px solid #4778d9!important;
+}
+
+
+.row {
+	content: "";
+    clear: both;
+    display: block;
+	max-width: 1550px;
+}

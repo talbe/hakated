@@ -1,0 +1,208 @@
+.aboutGrid {
+    height: auto;
+    margin-top: 170px;
+    width: 100%;
+}
+
+.soildLine {
+    height: 5px;
+    background-color: #bc4519; 
+    width: 100%;
+}
+
+.margedDiv {
+    margin-left: 20px;
+    height: 800px;
+    background-color: #efefe9 ;
+}
+
+.mainSlider {
+    float:right;
+    width: 100%;
+    height: 230px;
+    clear: both;
+    display: block;
+}
+
+.mainSliderPic {
+    height:230px;
+    width: 100%;
+}
+
+.Content {
+    width: 100%;
+}
+
+.MainContent {
+    width: 70%;
+    margin-top: 30px;
+    float:right;
+    clear: both;
+
+}
+
+.ContentHeader {
+    background-color: #bc4519; 
+    height: 52px;
+    overflow:auto;
+}
+
+.ContentHeaderText{
+    width: 70%;
+    height: 15px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 27px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+
+}
+
+.ContentText {
+    color: #474747;
+    direction: rtl;
+    font-family:'almoni-dl', sans-serif; 
+    font-size: 18px;
+    margin-right: 30px;
+    margin-left: 90px;
+}
+
+.katedTeam {
+    margin-top: 50px;
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #bc4519;
+    height: 200px;
+    float: right;
+    width: 100%;
+}
+
+.katedWorkers {
+    margin-right: 30px;
+    width: 40%;
+    float: right;
+}
+
+.katedWorkersHeader {
+    float: right;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px; 
+	text-align:right; 
+    color: #bc4519;
+    font-weight: bold;
+	font-family:'almoni-dl', sans-serif; 
+    width: 100%;
+}
+
+.katedWorkersText {
+    float: right;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 18px; 
+	text-align:right;
+    direction: rtl;
+	font-family:'almoni-dl', sans-serif;
+    color: #474747;
+}
+
+.katedManagement {
+    margin-right: 30px;
+    width: 55%;
+}
+
+
+/*
+Secondary Menu
+*/
+
+
+.interestInTheKated {
+    width: 100%;
+    height: 52px;
+    background-color: #ACB893;
+}
+
+.interestInTheKatedText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+    font-size: 21px; 
+	color: white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+}
+
+.interestsList {
+    margin-right: 0px;
+    float: right;
+    text-align: right;
+    direction: rtl;    
+    font-size: 18px; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 100%;
+    line-height: 165%;
+
+}
+
+.interestsList li a {
+    color: #474747;
+    text-align: right;
+    text-decoration: none;
+	margin-top: 75px;
+	font-size: 18px;
+	font-family:'almoni-dl', sans-serif;
+    width: 100%;
+}
+
+.signIn {
+    margin-top: 30px;
+    height:80px;
+    width: 100%;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.signInText {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 27px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+}
+
+.secondaryContent {
+    margin-top: 30px;
+    float: right;
+    width: 30%;
+    overflow: auto;
+    height: 500px;  
+}
+
+.soildLine2 {
+    height: 5px;
+    background-color: #7B8F54; 
+    width: 100%;
+}
+
+.row {
+	content: "";
+    clear: both;
+    display: block;
+	max-width: 1550px;
+}

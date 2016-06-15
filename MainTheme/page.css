@@ -1,0 +1,376 @@
+.row {
+	content: "";
+    clear: both;
+    display: block;
+	max-width: 1550px;
+}
+
+.classicParagraph p {
+    margin-top:0;
+    margin-bottom: 16px;
+}
+.mainGrid {
+    height: auto;
+    margin-top: 170px;
+    width: 100%;
+}
+
+.soildLine {
+    height: 5px;
+    background-color: #bc4519; 
+    width: 100%;
+}
+
+.courseName {
+    height: 40px;
+}
+
+.interestsHeader {
+    height: 100%;
+    width: 15%;
+    background-color: #D58A6E; 
+    float: right;
+}
+
+.interestHeaderText {
+    margin-top: 3px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    float: right;
+    font-size: 24px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    height: 100%;
+}
+
+.courseType {
+    height: 100%;
+    width: 15%;
+    background-color: #BF4C22;   
+    float: right;
+}
+
+.courseTypeText {
+    margin-top: 3px;
+    margin-right: 10px;
+    color:white;
+    float: right;
+    font-size: 24px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    height: 70%;
+}
+
+.content {
+    margin-top: 30px;
+    height: auto;
+}
+
+.mainContent {
+    width: 70%;
+    float: right;
+    height: auto;
+}
+
+.courseHeader {
+    height: 190px;
+    background-color: #C4CDB2;
+    position:relative;
+}
+
+.courseHeaderImg {
+    float: left;
+    height: 100%;
+}
+
+.courseMainHeader {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    position: relative;
+    top: 25px;
+    right: 20px;
+    font-size: 27px; 
+	color: #BF4C22; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 70%;
+}
+
+.margined {
+    margin-left: 20px;
+}
+.courseLecturer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 20px;
+    font-size: 21px; 
+	color:#BF4C22; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 50%;
+    margin-top: 50px;
+    margin-top: 60px;
+}
+
+.classicParagraph {
+    margin-top: 30px;
+    margin-bottom: 0px;
+    float: right;
+    position: relative;
+    right: 20px;
+    font-size: 18px; 
+	color:black; 
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 90%;
+}
+
+.mainIssues {
+    margin-top: 40px;
+    margin-bottom: 0px;
+    float: right;
+    position: relative;
+    right: 20px;
+    font-size: 18px; 
+    color:black; 
+    text-align:right; 
+    font-weight: bold;
+    font-family:'almoni-dl', sans-serif; 
+    width: 70%;  
+}
+.lecturerinstitution {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+    position: relative;
+    top: 0px;
+    right: 20px;
+    font-size: 21px; 
+	color:#BF4C22; 
+	text-align:right; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 50%;
+}
+
+.moreCoursesHeader {
+    width: 100%;
+    height: 50px;
+    background-color: #ACB893;
+}
+
+.moreCoursesHeaderText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+    font-size: 21px; 
+	color: white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+}
+
+.interestInTheKated {
+    width: 100%;
+    height: 52px;
+    background-color: #ACB893;
+}
+
+.interestInTheKatedText {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+    float: right;
+    font-size: 21px; 
+	color: white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+    overflow: auto;
+    width: 100%;
+    text-align: right;
+    direction: rtl;
+}
+
+.interestsList {
+    margin-right: 0px;
+    float: right;
+    text-align: right;
+    direction: rtl;    
+    font-size: 18px; 
+	font-family:'almoni-dl', sans-serif; 
+    width: 100%;
+    line-height: 165%;
+
+}
+
+.interestsList li a {
+    color: black;
+    text-align: right;
+    text-decoration: none;
+	margin-top: 75px;
+	font-size: 18px;
+	font-family:'almoni-dl', sans-serif;
+    width: 100%;
+}
+
+.signIn {
+    margin-top: 30px;
+    height:80px;
+    width: 100%;
+    float: right;
+    position: relative;
+    cursor: pointer;
+}
+
+.courseInfo {
+    float: right;
+    position: relative;
+    margin-top: 50px;
+    height: 150px;
+    width: 100%;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-top-color: #bc4519;
+    border-right-color: #bc4519;
+    border-bottom-color: #bc4519;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+}
+
+.courseDownload {
+    float: right;
+    background-color: #7B8F54;
+    width:180px;
+    height: 100%;
+}
+
+.downlaodText {
+    margin-top: 35px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+	font-size: 21px;
+	font-family:'almoni-dl', sans-serif;
+    font-weight: bold; 
+    width: 100%;
+    cursor: pointer;
+}
+
+.verticalLine {
+    border-bottom-style: solid;
+    border-bottom-color: #bc4519;
+    border-bottom-width: 1px;
+    position: relative;
+    float: right;
+}
+
+.courseDetails{
+    width: 170px;
+}
+.horizontalLine {
+    margin-top: 20px;
+    margin-right: 20px;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #bc4519;
+    height: 110px;
+    float: right;
+}
+.courseDates {
+    margin-right: 20px;
+    float: right;
+    width: 400px;
+}
+
+.firstcourseDates {
+    color: #bc4519;
+    text-align: right;
+    text-decoration: none;
+	font-size: 24px;
+	font-family:'almoni-dl', sans-serif;
+    font-weight: bold; 
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.secondcourseDates {
+    color: #bc4519;
+    text-align: right;
+    text-decoration: none;
+	font-size: 21px;
+	font-family:'almoni-dl', sans-serif;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.numOfappointments {
+    float: right;
+}
+
+.numOfappointmentsText1 {
+   color: #bc4519;
+    text-align: right;
+    text-decoration: none;
+	font-size: 21px;
+	font-family:'almoni-dl', sans-serif;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    width: 100%;
+    float: right;
+    margin-right: 10px;
+}
+.numOfappointmentsText2 {
+   color: #bc4519;
+    text-align: right;
+    text-decoration: none;
+	font-size: 21px;
+	font-family:'almoni-dl', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: 15px;
+    float: right;
+}
+
+.signInText {
+    position: absolute;
+    top: 25px;
+    right: 110px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    font-size: 27px; 
+	color:white; 
+	text-align:right; 
+    font-weight: bold; 
+	font-family:'almoni-dl', sans-serif; 
+}
+
+.secondaryContent {
+    float: right;
+    width: 30%;
+    overflow: auto;
+    height: 500px;  
+}
+
+.soildLine2 {
+    height: 5px;
+    background-color: #7B8F54; 
+    width: 100%;
+}
